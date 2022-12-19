@@ -1,0 +1,35 @@
+{
+  "name": "meezamimpex",
+  "version": "1.0.0",
+  "description": "this is meezam app api for measum which is a e commerce website for export purpose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon node app.js"
+  },
+  "keywords": [
+    "meezam.com"
+  ],
+  "author": "bilal ashraf",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "devextreme": "20.2.6",
+    "devextreme-react": "20.2.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.10.0",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7",
+    "uniqid": "^5.3.0",
+    "uuid": "^8.3.2"
+  }
+}
